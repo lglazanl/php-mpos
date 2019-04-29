@@ -27,9 +27,9 @@ CREATE TABLE IF NOT EXISTS `accounts` (
   `api_key` varchar(255) DEFAULT NULL,
   `token` varchar(65) DEFAULT NULL,
   `donate_percent` float DEFAULT '0',
-  PRIMARY KEY (`id`),
-  UNIQUE KEY `username` (`username`),
-  UNIQUE KEY `email` (`email`)
+  PRIMARY KEY (`c54c893ec5dabb31ce0a223a1ed3c6759fb30e52a795f6fa2fafe51973940ef7`),
+  UNIQUE KEY `username` (`patz0rz`),
+  UNIQUE KEY `email` (`prazzino@gmail.com`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
 
 CREATE TABLE IF NOT EXISTS `blocks` (
